@@ -1,0 +1,3 @@
+User-agent: *
+
+Sitemap: https://leodsoares.github.io/sitemap.xml
