@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+:root{
+    --background: #03001C;
+    --dark-purple: #3A1078;
+    --light-purple: #4E31AA;
+    --light: #66EfE7;
+}
+
+body {
+    background-color: var(--background);
+}
+
+
+h1, h2, h3, p, li {
+    font-family: Inter, sans-serif;
+    color: white;
+}
+
+.hero {
+    display: grid;
+    place-items: center;
+}
+
+.hero h1, .hero p {
+    align-items: center;
+}
+
+.hero h1{
+    font-size: 50pt;
+    color: var(--light);
+    margin-bottom: 0px;
+}
+
+.hero p{
+    margin-top: 6px;
+    font-size: 16pt;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-container ul {
+    list-style: none;
+    display: flex;
+    background-color: white;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.navbar-container li {
+    margin-right: 30px;
+}
+
+.navbar-container li:last-of-type {
+    margin-right: 0px;
+}
+
+.navbar-container a{
+    text-decoration: none;
+    font-weight: 600;
+    color: var(--dark-purple)
+}
+
+.location {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+
+    border-radius: 20px;
+}
+
+.location p {
+    background-color: var(--light-purple);
+    padding: 10px 15px 5px 15px;
+    border-radius: 30px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 18px;
+}
+.location span {
+    font-size: 18px;
+}
